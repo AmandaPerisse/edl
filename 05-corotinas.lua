@@ -1,0 +1,5 @@
+co = coroutine.create(function()
+    print("Hello")
+    coroutine.yield()
+end)
+coroutine.resume(co)
